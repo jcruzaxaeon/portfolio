@@ -9,7 +9,9 @@
 - Dynamic portfolio site
 
 ## Lead Task Roster
-
+- **12/1/2023**:
+   1. [ ] build `data.json` ~ see `6tth_ios-b.pdf` > step 5
+   1. [ ] push (images, data)
 
 ## Development
 - Node.js, Express, Pug
@@ -22,7 +24,7 @@
 ## Data
 - `note`: initialize
 - `detail`: git submodule for `axaeon.com`
-- `code`:6t
+- `code`: 6t
 - `description`: Dynamic portfolio site
 - `author`: jcruz
 - `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
@@ -62,7 +64,7 @@
 
 
 ## Task Roster
-- [ ] Lorem
+
 
 [ToC](#table-of-contents)
 
@@ -71,11 +73,27 @@
 
 
 ## Devlog
+Date indicates start of session.
+
 - **11/30/2023**:
-   - [x] Initialize
-   - [x] Sync to GitHub
-- `MM/DD/YYYY`
-   - Lorem
+   1. ini project
+   1. add remote GitHub-repo ~ commit ~ push
+   1. ini stack
+   1. create 500px-wide images for projects 1-5
+      ```
+             Height
+         500px    1200px
+      1  X        X
+      2  X        X
+      3  X        X
+      4  X        X
+      5  X        X
+      ```
+- **12/1/2023**:
+   1. build `data.json` ~ see `6tth_ios-b.pdf` > step 5
+   1. push (images, data)
+- **MM/DD/YYYY**
+   - [ ] Lorem
    	- [ ] Ipsum
 
 ### Team Treehouse "Exceeds Expectations" Additions
@@ -101,6 +119,7 @@
 
 
 ## Attribution
+- **Photo Editing**: befunky.com
 
 [ToC](#table-of-contents)
 

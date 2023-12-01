@@ -1,0 +1,68 @@
+{
+   "projects": [
+      {
+         "id": "1",
+         "project_name": "Random Quotes",
+         "description": "Random quote from an array of quote-objects",
+         "technologies": "JavaScript, HTML, CSS",
+         "live_link": "https://axaeon.com/app/unit/1t/land/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/random-quotes",
+         "image_urls": [
+            "./img/1tth-square.jpg",
+            "./img/1tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "2",
+         "project_name": "Pagination",
+         "description": "Fictional-student cards from JavaScript array-of-objects",
+         "technologies": "JavaScript Only",
+         "live_link": "https://axaeon.com/app/unit/2t/land/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/pagination",
+         "image_urls": [
+            "./img/2tth-square.jpg",
+            "./img/2tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "3",
+         "project_name": "Registration",
+         "description": "Registration form frontend",
+         "technologies": "JavaScript, HTML",
+         "live_link": "https://axaeon.com/app/unit/3t/land/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/registration",
+         "image_urls": [
+            "./img/3tth-square.jpg",
+            "./img/3tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "4",
+         "project_name": "Song Hunter",
+         "description": "Phrase-guessing game",
+         "technologies": "JavaScript, HTML, CSS",
+         "live_link": "https://axaeon.com/app/unit/4t/land/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/song-hunter",
+         "image_urls": [
+            "./img/4tth-square.jpg",
+            "./img/4tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "5",
+         "project_name": "Employee Directory",
+         "description": "Fictional-employee list from public API",
+         "technologies": "JavaScript",
+         "live_link": "https://axaeon.com/app/unit/5t/land/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/employee-directory",
+         "image_urls": [
+            "./img/5tth-square.jpg",
+            "./img/5tth-large.jpg"
+         ]
+      }
+   ]
+}
