@@ -1,7 +1,7 @@
 
 
 
-# Song Hunter
+# Portfolio
 
 ## Readme
 - Team Treehouse Project: Unit-6
@@ -9,7 +9,7 @@
 - Dynamic portfolio site
 
 ## Lead Task Roster
-- [ ] Sync to GitHub
+
 
 ## Development
 - Node.js, Express, Pug
@@ -20,7 +20,7 @@
 - ??GreenGeeks Hosting
 
 ## Data
-- `note`: initiate
+- `note`: initialize
 - `detail`: git submodule for `axaeon.com`
 - `code`:6t
 - `description`: Dynamic portfolio site
@@ -71,20 +71,15 @@
 
 
 ## Devlog
-- `Month DD, YYYY`
+- **11/30/2023**:
+   - [x] Initialize
+   - [x] Sync to GitHub
+- `MM/DD/YYYY`
    - Lorem
    	- [ ] Ipsum
 
 ### Team Treehouse "Exceeds Expectations" Additions
-- Add keyboard support
-- Customize style
-   - Add slow transition animation from overlay to game board
-   - Add Google Fonts: Brawler (Serif), Alegreya Sans SC.  Updated: CSS, HTML to link to fonts.
-   - Add a background images to body-, and #overlay-elements in CSS.
-   - Make header-class color lighter for improved visibility with new background image.
-   - Focus on "start game" button on load, and on reload
-   - Change "Phrase Hunter" app name to "Song Hunter"
-   - Change heart images for improved visibility with new background image
+
 
 [ToC](#table-of-contents)
 

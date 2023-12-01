@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2"
+  },
+  "name": "6tth",
+  "description": "## Readme - Team Treehouse Project: Unit-6 - https://github.com/jcruzaxaeon/portfolio.git - Dynamic portfolio site",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcruzaxaeon/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcruzaxaeon/portfolio/issues"
+  },
+  "homepage": "https://github.com/jcruzaxaeon/portfolio#readme"
+}
