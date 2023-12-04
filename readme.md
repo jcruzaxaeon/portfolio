@@ -30,7 +30,17 @@ The following changes were implemented for the Team Treehouse "Exceeds Expectati
 ## Deployment
 - Central GitHub Repo
 - WSL2 > Debian 10 > Linux CLI
-- ??GreenGeeks Hosting
+- `render.com`
+
+### Deploy on `render.com`
+1. Login to https://render.com > `dashboard.render.com` > `New +`
+1. `Web Service` > `Build and deploy from a Git repository` > `Next`
+1. `Configure Account` > Enter password > Add project repo
+1. Click project `Connect`-button
+1. Name: `portfolio-jcruzaxaeon`
+1. Build Command: `$ npm install`
+1. Start Command: `$ node app.js`
+1. Click `Create Web Service`-button
 
 ## Data
 - `title`: Dynamic-Site Portfolio
