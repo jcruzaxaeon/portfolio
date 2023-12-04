@@ -1,0 +1,26 @@
+extends layout.pug
+
+block content
+
+   nav.nav
+      a(href='/')
+         span &larr;
+         |  Back
+
+   .box
+      h1 Great. You broke it.
+      p <u>Note</u>: This is why we can't have nice things.
+      p <u>Status Code</u>: #{error.status}
+      p <u>Status Message</u>: #{error.message}
+      p <u>Rendered</u>: error.pug
+      p <u>URL Requested</u>: 
+         pre 
+            code #{url}
+      p <u>Error Stack</u>:
+      pre 
+         code #{error.stack}
+
+   nav.nav
+      a(href='/')
+         span &larr;
+         |  Back

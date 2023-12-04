@@ -22,11 +22,12 @@
 - ??GreenGeeks Hosting
 
 ## Data
-- `note`: initialize
+- `versionCode`: initial
 - `detail`: git submodule for `axaeon.com`
-- `code`: 6t
+- `code`: 6tth
 - `description`: Dynamic portfolio site
 - `author`: jcruz
+- `email`: jcruz@axaeon.com
 - `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
 - `branch`: main
 - `org`: Team Treehouse
@@ -46,7 +47,7 @@
 1. [Devlog](#devlog)
 1. [Reference](#reference)
 1. [Attribution](#attribution)
-1. [Text](#text)
+1. [Notes](#notes)
 1. [Archive](#archive)
 1. [Auto-Generated Markdown](#auto-generated-markdown-jsdoc3-for-appjs)
 
@@ -75,6 +76,14 @@
 ## Devlog
 Date indicates start of session.
 
+- **12/1/2023**:
+   1. build `data.json` ~ see `6tth_ios-b.pdf` > step 5
+   1. push (images, data)
+   1. build boilerplate ~ run "$ nodemon"
+      >[!BUG]
+      >"`res.locals.error = err;`" ~ !`local` 
+      - build boilerplate error-handling
+      - build boilerplate HTML
 - **11/30/2023**:
    1. ini project
    1. add remote GitHub-repo ~ commit ~ push
@@ -89,9 +98,6 @@ Date indicates start of session.
       4  X        X
       5  X        X
       ```
-- **12/1/2023**:
-   1. build `data.json` ~ see `6tth_ios-b.pdf` > step 5
-   1. push (images, data)
 - **MM/DD/YYYY**
    - [ ] Lorem
    	- [ ] Ipsum
@@ -127,7 +133,40 @@ Date indicates start of session.
 
 
 
-## Text
+## Notes
+
+1. Node.js Path-Module: methods for (manipulating / building) paths at runtime
+   
+   ```javascript
+   // 1. `path`: view engine setup
+   let path = require('path');
+   
+   app.set('views', path.join(__dirname, 'views'));
+   app.set('view engine', 'pug');
+   
+   // 2. `static`: [x] 1. Add static middleware
+   app.use( express.static('public') );
+   ```
+   - from Team Treehouse Lesson 6503a: Recipies
+
+1. `npm install morgan`: HTTP-request logger
+   ```javascript
+   const logger = require('morgan');
+   const app = express();
+
+   app.use(logger('dev'));
+   ```
+
+1. `require()`: "built-in CommonJS[specification]-module function supported by Node.js that lets you included modlues" -https://www.freecodecamp.org/news/how-to-use-the-javascript-require-function/
+
+1. `express()`: (Node.js, Express) "function creates an instance of an Express application.  accepts an (**`#A`**) optional callback-function(`cb`) as an argument.  `cb` executed everytime a request is made to application."  any other argument-type (e.g. number, string) is (invalid, irrelevant).
+   ```javascript
+   const express = require('express');
+   const app = express(cb); //#A
+
+   function cb(req, res, next) => { console.log("request recieved"); next(); }
+   ```
+
 
 [ToC](#table-of-contents)
 
