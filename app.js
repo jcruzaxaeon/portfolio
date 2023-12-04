@@ -2,10 +2,13 @@
 
 /*
 # Portfolio
-- `versionCode`: initial
-- `detail`: git submodule for `axaeon.com`
-- `code`: 6tth
-- `description`: Dynamic portfolio site
+- `originalFileContent`: New
+- `sourceAuthor`: jcruz
+- `title`: Dynamic-Site Portfolio
+- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
+- `majorVersionCode`: initial
+- `gitHeirarchy`: git submodule for `axaeon.com`
+- `projectCode`: 6tth
 - `author`: jcruz
 - `email`: jcruz@axaeon.com
 - `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
@@ -15,27 +18,17 @@
 - `certification`: Fullstack JavaScript Techdegree
 - `lesson`: Unit Project 6
 - `topics`: Node.js, Express, Pug
-- `text`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
 --------------------------------------------------------------------------------------------------*/
 
 
 
-// ### External Dependencies
-// -------------------------------------------------------------------------------------------------
+// Globals
+////////////////////////////////////////////////////////////////////////////////////////////////////
 const express = require('express');
 const path = require('path');
 const app = express();
-
 // const router = express.Router();
 
-
-
-// Internal Dependencies
-
-
-
-
-// Globals
 const internalError = false;  // #FD ~ For development
 
 // Open Access to Static Assets
@@ -44,11 +37,8 @@ app.use(
    express.static( path.join(__dirname, 'public') )
 );
 
-
 // Settings
 const PORT = 3000; // #FD ~ For development
-
-
 
 // View Engine
 // app.set('views', path.join(__dirname, 'views'));
@@ -60,7 +50,8 @@ app.set('view engine', 'pug');
 const index = require('./routes/index');
 
 
-// Middleware Globals
+
+// Internal Error Test
 app.use( (req, res, next) => {
    try{
       if(internalError) throw new Error('Internal Server Error - [AXERR:000] Server could not execute requested process.');
@@ -74,18 +65,18 @@ app.use( (req, res, next) => {
 app.use(index);
 
 
-// Error-Handling - (Default, Missing) Route
+// 404 Error-Catching - (Default, Missing) Route
 app.use( (req, res, next) => {
    const err = new Error("Page Not Found - The resource requested does not exist.");
    err.status = 404;
    next(err);
 });
 
+// Error-Handler
 app.use( (err, req, res, next) => {
    const url = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
 
    // Pass variables to render-view using second argument of .render()
-   // err.url = url;
    err.status = err.status || 500;
    res.status(err.status);
 
@@ -104,12 +95,6 @@ app.use( (err, req, res, next) => {
    // res.render('error');
 });
 
-
-
 // #FD ~ For Development
-app.listen(PORT, () => { clog(`Server running on Port 3000`); })
+app.listen(PORT, () => { console.log(`Server running on Port 3000`); })
 
-
-
-// Utility Functions  #FD
-function clog(v) { console.log(v) }

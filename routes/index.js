@@ -1,7 +1,26 @@
 
 
+/*
+# Portfolio
+- `originalFileContent`: New
+- `sourceAuthor`: jcruz
+- `title`: Dynamic-Site Portfolio
+- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
+- `majorVersionCode`: initial
+- `gitHeirarchy`: git submodule for `axaeon.com`
+- `projectCode`: 6tth
+- `author`: jcruz
+- `email`: jcruz@axaeon.com
+- `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
+- `branch`: main
+- `org`: Team Treehouse
+- `orgType`: Code Academy
+- `certification`: Fullstack JavaScript Techdegree
+- `lesson`: Unit Project 6
+- `topics`: Node.js, Express, Pug
+--------------------------------------------------------------------------------------------------*/
+
 const express = require('express');
-// const { render } = require('pug');
 const router = express.Router();
 // const {projects} = require('../data/data.json'); // Requires a `projects`-key in .json-file
 const data = require('../data/data.json');
@@ -9,7 +28,6 @@ const data = require('../data/data.json');
 router.get('/', (req, res) => {
    res.locals.projects = data.projects;
    res.render('index');
-   // res.render('index', {key1, key2}) // key1, key2 directly useable as a variable
 });
 
 router.get('/about', (req, res) => {

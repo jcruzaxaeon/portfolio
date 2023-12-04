@@ -79,6 +79,24 @@
             "/static/img/5tth-square.jpg",
             "/static/img/5tth-large.jpg"
          ]
-      }
+      },
+
+	 {
+		"id": "6",
+		"project_name": "Portfolio",
+		"description": "Dynamic-Site Portfolio",
+		"technologies": [
+		   "JavaScript",
+		   "Node.js",
+		   "Express",
+		   "Pug"
+		],
+		"live_link": "https://render.com",
+		"github_link": "https://github.com/jcruzaxaeon/portfolio",
+		"image_urls": [
+		   "/static/img/6tth-square.png",
+		   "/static/img/6tth-large.png"
+		]
+	  }
    ]
 }

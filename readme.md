@@ -1,17 +1,28 @@
 
 
-
 # Portfolio
 
 ## Readme
 - Team Treehouse Project: Unit-6
 - https://github.com/jcruzaxaeon/portfolio.git
-- Dynamic portfolio site
+- Dynamic-Site Portfolio
+
+## Externalities
+
+### Style-Change Documentation
+The following changes were implemented for the Team Treehouse "Exceeds Expectations" requirements.
+
+1. Rounded-corners (`:root {--borderRadius: 5px;}`) added to: `.box img`, `.sidebar .thumbnail`, `.cell img`, `.btn-link`, `pre`, `pre&::-webkit-scrollbar`, `pre&::-webkit-scrollbar-thumb`
+1. Created a user-friendly `pre code`-block style to allow pleasant display of the `Error Stack` on error-pages.
+1. Modified `pre code`-block scrollbar-style for normalization across browsers
+
+> [!NOTE] Find Changes: Open `public/css/styles.css` > `CTRL-F` > Search for `!TTHEE`
+
+[ToC](#table-of-contents)
+
+<br>
 
 ## Lead Task Roster
-- **12/1/2023**:
-   1. [ ] build `data.json` ~ see `6tth_ios-b.pdf` > step 5
-   1. [ ] push (images, data)
 
 ## Development
 - Node.js, Express, Pug
@@ -22,10 +33,11 @@
 - ??GreenGeeks Hosting
 
 ## Data
-- `versionCode`: initial
-- `detail`: git submodule for `axaeon.com`
-- `code`: 6tth
-- `description`: Dynamic portfolio site
+- `title`: Dynamic-Site Portfolio
+- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
+- `majorVersionCode`: initial
+- `gitHeirarchy`: git submodule for `axaeon.com`
+- `projectCode`: 6tth
 - `author`: jcruz
 - `email`: jcruz@axaeon.com
 - `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
@@ -35,7 +47,6 @@
 - `certification`: Fullstack JavaScript Techdegree
 - `lesson`: Unit Project 6
 - `topics`: Node.js, Express, Pug
-- `text`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
 
 <br>
 
@@ -55,15 +66,6 @@
 
 
 
-## Externalities
-
-
-[ToC](#table-of-contents)
-
-<br>
-
-
-
 ## Task Roster
 
 
@@ -75,7 +77,11 @@
 
 ## Devlog
 Date indicates start of session.
-
+- **12/4/2023**:
+   1. refactor, comment, add 6tth
+   1. refactor for deployment on render.com
+- **12/3/2023**:
+   1. implement specification
 - **12/1/2023**:
    1. build `data.json` ~ see `6tth_ios-b.pdf` > step 5
    1. push (images, data)
@@ -101,13 +107,6 @@ Date indicates start of session.
 - **MM/DD/YYYY**
    - [ ] Lorem
    	- [ ] Ipsum
-
-### Team Treehouse "Exceeds Expectations" Additions
-
-
-[ToC](#table-of-contents)
-
-<br>
 
 
 

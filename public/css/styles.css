@@ -1,5 +1,28 @@
 
 
+/*
+# Portfolio
+- `originalFileContent`: Modified
+- `sourceAuthor`: Team Treehouse
+- `title`: Dynamic-Site Portfolio
+- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
+- `majorVersionCode`: initial
+- `gitHeirarchy`: git submodule for `axaeon.com`
+- `projectCode`: 6tth
+- `author`: jcruz
+- `email`: jcruz@axaeon.com
+- `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
+- `branch`: main
+- `org`: Team Treehouse
+- `orgType`: Code Academy
+- `certification`: Fullstack JavaScript Techdegree
+- `lesson`: Unit Project 6
+- `topics`: Node.js, Express, Pug
+
+## Readme
+- To find changes made by jcruz, `CTRL-F` > Search for `!TTHEE`
+--------------------------------------------------------------------------------------------------*/
+
 /* !TTHEE */
 :root {
    --borderRadius: 5px;
@@ -372,19 +395,6 @@ pre {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
-
-
-  /* Custom-Styles for TTH "Exceeds Expectations" [!TTHEE] >>>>>>>>>> */
-  /* pre:hover {
-      &::-webkit-scrollbar {
-         background-color: transparent;
-      }
-      &::-webkit-scrollbar-thumb {
-         background-color: grey;
-      }
-   } */
-   /* <<<<<<<<<< [!THHEE] */ 
-
 }
 
 
