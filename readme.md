@@ -15,8 +15,10 @@
 
 ## Externalities
 
-### Style-Change Documentation
-The following changes were implemented for the Team Treehouse "Exceeds Expectations" requirements.
+### Notes for Team Treehouse Submission
+- Please note that the extraneous `/land`-directory at the `root` is necessary for proper operation on my personal site.
+
+The following changes were implemented for the Team Treehouse "Exceeds Expectations" requirements:
 
 1. Rounded-corners (`:root {--borderRadius: 5px;}`) added to: `.box img`, `.sidebar .thumbnail`, `.cell img`, `.btn-link`, `pre`, `pre&::-webkit-scrollbar`, `pre&::-webkit-scrollbar-thumb`
 1. Created a user-friendly `pre code`-block style to allow pleasant display of the `Error Stack` on error-pages.
@@ -84,7 +86,6 @@ Date indicates start of session.
    1. refactor, comment, add 6tth
    1. refactor for deployment on render.com
    1. integrate into axaeon.com
-   1. push from host
 - **12/3/2023**:
    1. implement specification
 - **12/1/2023**:
