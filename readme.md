@@ -2,10 +2,16 @@
 
 # Portfolio
 
-## Readme
-- Team Treehouse Project: Unit-6
-- https://github.com/jcruzaxaeon/portfolio.git
-- Dynamic-Site Portfolio
+## Table of Contents
+1. [Externalities](#externalities)
+1. [Readme](#readme)
+1. [Task Roster](#task-roster)
+1. [Devlog](#devlog)
+1. [Reference](#reference)
+1. [Attribution](#attribution)
+1. [Notes](#notes)
+1. [Archive](#archive)
+1. [Auto-Generated Markdown](#auto-generated-markdown-jsdoc3-for-appjs)
 
 ## Externalities
 
@@ -22,62 +28,49 @@ The following changes were implemented for the Team Treehouse "Exceeds Expectati
 
 <br>
 
-## Lead Task Roster
 
-## Development
+
+## Readme
+- Team Treehouse Project: Unit-6
+- Dynamic-Site Portfolio
+- Node.js, Express, Pug, JavaScript, HTML, CSS
+- https://portfolio-jcruzaxaeon.onrender.com/
+	> [!NOTE] App may take <mark>~30-sec+</mark> to load due to server spin-up limitation placed on render.com's FREE-hosting tier. 
+- https://github.com/jcruzaxaeon/portfolio.git
+
+### Current Task Roster
+- [ ] Explore alternative free-deployment options
+
+### Development
 - Node.js, Express, Pug
-
-## Deployment
-- Central GitHub Repo
+- JavaScript, HTML, CSS
+- CLI Git, Central, Remote GitHub Repo
 - WSL2 > Debian 10 > Linux CLI
-- `render.com`
+- VS Code, Vim
 
-### Deploy on `render.com`
+### Deployment
+- `render.com` Hosting
+
+#### Deploy on `render.com`
 1. Login to https://render.com > `dashboard.render.com` > `New +`
 1. `Web Service` > `Build and deploy from a Git repository` > `Next`
-1. `Configure Account` > Enter password > Add project repo
+1. `Configure Account` > Enter GitHub password > Add project repo
 1. Click project `Connect`-button
 1. Name: `portfolio-jcruzaxaeon`
 1. Build Command: `$ npm install`
 1. Start Command: `$ node app.js`
 1. Click `Create Web Service`-button
 
-## Data
-- `title`: Dynamic-Site Portfolio
-- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
-- `majorVersionCode`: initial
-- `gitHeirarchy`: git submodule for `axaeon.com`
-- `projectCode`: 6tth
-- `author`: jcruz
-- `email`: jcruz@axaeon.com
-- `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
-- `branch`: main
-- `org`: Team Treehouse
-- `orgType`: Code Academy
-- `certification`: Fullstack JavaScript Techdegree
-- `lesson`: Unit Project 6
-- `topics`: Node.js, Express, Pug
-
-<br>
-
-
-
-## Table of Contents
-1. [Externalities](#externalities)
-1. [Task Roster](#task-roster)
-1. [Devlog](#devlog)
-1. [Reference](#reference)
-1. [Attribution](#attribution)
-1. [Notes](#notes)
-1. [Archive](#archive)
-1. [Auto-Generated Markdown](#auto-generated-markdown-jsdoc3-for-appjs)
-
 <br>
 
 
 
 ## Task Roster
-
+- [ ] Explore alternative free-deployment options
+   - [ ] Digital Ocean
+   - [ ] Oracle
+   - [ ] Google
+   - [ ] AWS
 
 [ToC](#table-of-contents)
 
@@ -90,6 +83,7 @@ Date indicates start of session.
 - **12/4/2023**:
    1. refactor, comment, add 6tth
    1. refactor for deployment on render.com
+   1. integrate into axaeon.com
 - **12/3/2023**:
    1. implement specification
 - **12/1/2023**:
@@ -176,6 +170,28 @@ Date indicates start of session.
    function cb(req, res, next) => { console.log("request recieved"); next(); }
    ```
 
+[ToC](#table-of-contents)
+
+<br>
+
+
+
+## Data
+- `title`: Dynamic-Site Portfolio
+- `liveLink`: https://portfolio-jcruzaxaeon.onrender.com/
+- `description`: Team Treehouse Unit Project 6. Server-side JavaScript practice.
+- `majorVersionCode`: initial
+- `gitHeirarchy`: git submodule for `axaeon.com`
+- `projectCode`: 6tth
+- `author`: jcruz
+- `email`: jcruz@axaeon.com
+- `centralRepo`: https://github.com/jcruzaxaeon/portfolio.git
+- `branch`: main
+- `org`: Team Treehouse
+- `orgType`: Code Academy
+- `certification`: Fullstack JavaScript Techdegree
+- `lesson`: Unit Project 6
+- `topics`: Node.js, Express, Pug
 
 [ToC](#table-of-contents)
 
