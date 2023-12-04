@@ -84,6 +84,7 @@ Date indicates start of session.
    1. refactor, comment, add 6tth
    1. refactor for deployment on render.com
    1. integrate into axaeon.com
+   1. push from host
 - **12/3/2023**:
    1. implement specification
 - **12/1/2023**:
