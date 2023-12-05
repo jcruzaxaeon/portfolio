@@ -1,50 +1,20 @@
 {
    "projects": [
       {
-         "id": "1",
-         "project_name": "Random Quotes",
-         "description": "Random quote displayed from an array of quote-objects",
+         "id": "6",
+         "project_name": "Portfolio",
+         "description": "Dynamic-Site Portfolio",
          "technologies": [
-            "JavaScript", 
-            "HTML", 
-            "CSS"
+            "JavaScript",
+            "Node.js",
+            "Express",
+            "Pug"
          ],
-         "live_link": "https://axaeon.com/app/unit/1t/index.html",
-         "github_link": "https://github.com/jcruzaxaeon/random-quotes",
+         "live_link": "https://portfolio-jcruzaxaeon.onrender.com",
+         "github_link": "https://github.com/jcruzaxaeon/portfolio",
          "image_urls": [
-            "/static/img/1tth-square.jpg",
-            "/static/img/1tth-large.jpg"
-         ]
-      },
-
-      {
-         "id": "2",
-         "project_name": "Pagination",
-         "description": "Paginated grid of fictional-student cards from JavaScript array-of-objects",
-         "technologies": [
-            "JavaScript Only"
-         ],
-         "live_link": "https://axaeon.com/app/unit/2t/index.html",
-         "github_link": "https://github.com/jcruzaxaeon/pagination",
-         "image_urls": [
-            "/static/img/2tth-square.jpg",
-            "/static/img/2tth-large.jpg"
-         ]
-      },
-
-      {
-         "id": "3",
-         "project_name": "Registration",
-         "description": "Registration-form frontend",
-         "technologies": [
-            "JavaScript", 
-            "HTML"
-         ],
-         "live_link": "https://axaeon.com/app/unit/3t/index.html",
-         "github_link": "https://github.com/jcruzaxaeon/registration",
-         "image_urls": [
-            "/static/img/3tth-square.jpg",
-            "/static/img/3tth-large.jpg"
+            "/static/img/6tth-square.png",
+            "/static/img/6tth-large.png"
          ]
       },
 
@@ -81,22 +51,52 @@
          ]
       },
 
-	 {
-		"id": "6",
-		"project_name": "Portfolio",
-		"description": "Dynamic-Site Portfolio",
-		"technologies": [
-		   "JavaScript",
-		   "Node.js",
-		   "Express",
-		   "Pug"
-		],
-		"live_link": "https://portfolio-jcruzaxaeon.onrender.com",
-		"github_link": "https://github.com/jcruzaxaeon/portfolio",
-		"image_urls": [
-		   "/static/img/6tth-square.png",
-		   "/static/img/6tth-large.png"
-		]
-	  }
+      {
+         "id": "3",
+         "project_name": "Registration",
+         "description": "Registration-form frontend",
+         "technologies": [
+            "JavaScript", 
+            "HTML"
+         ],
+         "live_link": "https://axaeon.com/app/unit/3t/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/registration",
+         "image_urls": [
+            "/static/img/3tth-square.jpg",
+            "/static/img/3tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "2",
+         "project_name": "Pagination",
+         "description": "Paginated grid of fictional-student cards from JavaScript array-of-objects",
+         "technologies": [
+            "JavaScript Only"
+         ],
+         "live_link": "https://axaeon.com/app/unit/2t/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/pagination",
+         "image_urls": [
+            "/static/img/2tth-square.jpg",
+            "/static/img/2tth-large.jpg"
+         ]
+      },
+
+      {
+         "id": "1",
+         "project_name": "Random Quotes",
+         "description": "Random quote displayed from an array of quote-objects",
+         "technologies": [
+            "JavaScript", 
+            "HTML", 
+            "CSS"
+         ],
+         "live_link": "https://axaeon.com/app/unit/1t/index.html",
+         "github_link": "https://github.com/jcruzaxaeon/random-quotes",
+         "image_urls": [
+            "/static/img/1tth-square.jpg",
+            "/static/img/1tth-large.jpg"
+         ]
+      }
    ]
 }
