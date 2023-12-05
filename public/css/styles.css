@@ -252,7 +252,6 @@ nav a span {
   background: #fefefe;
 }
 
-
 /*
   Home page styles
 */
@@ -294,7 +293,7 @@ nav a span {
   min-width: 100px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  border-radius: var(--borderRadius); /* !TTHEE */
+  border-radius: var(--borderRadius);  /* !TTHEE */
 }
 
 
@@ -315,9 +314,18 @@ nav a span {
   margin-bottom: 35px;
 }
 
+/* !TTHEE */
+.project-img-box {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: start;
+   flex-wrap: wrap;
+}
+
 .project-img {
   width: 100%;
-  max-width: 1065px;
+  max-width: 500px;  /* !TTHEE ~ 1065px (original) */
   margin-bottom: 15px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
@@ -333,7 +341,7 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
-  border-radius: var(--borderRadius); /* !TTHEE */
+  border-radius: var(--borderRadius);  /* !TTHEE */
 }
 
 /* Custom-Styles for TTH "Exceeds Expectations" [!TTHEE] >>>>>>>>>> */

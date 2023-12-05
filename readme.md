@@ -21,8 +21,10 @@
 The following changes were implemented for the Team Treehouse "Exceeds Expectations" requirements:
 
 1. Rounded-corners (`:root {--borderRadius: 5px;}`) added to: `.box img`, `.sidebar .thumbnail`, `.cell img`, `.btn-link`, `pre`, `pre&::-webkit-scrollbar`, `pre&::-webkit-scrollbar-thumb`
-1. Created a user-friendly `pre code`-block style to allow pleasant display of the `Error Stack` on error-pages.
+1. Created a user-friendly `pre code`-block style to allow pleasant display of the `Error Stack` on error-pages
 1. Modified `pre code`-block scrollbar-style for normalization across browsers
+1. Reduced maximum-width of project-images (`.project-img`)
+1. Added flexbox properties to project-images' container (`.project-img-box`)
 
 > [!NOTE] Find Changes: Open `public/css/styles.css` > `CTRL-F` > Search for `!TTHEE`
 
@@ -86,6 +88,7 @@ Date indicates start of session.
    1. refactor, comment, add 6tth
    1. refactor for deployment on render.com
    1. integrate into axaeon.com
+   1. update images
 - **12/3/2023**:
    1. implement specification
 - **12/1/2023**:
